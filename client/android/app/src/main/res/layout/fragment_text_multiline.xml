@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="72dp" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="2"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textview_q_title"
+                style="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:padding="16dp"
+                android:text="@string/title"
+                android:textColor="@color/title_info_color"
+                android:textSize="@dimen/text_size_small" />
+
+            <WebView
+                android:id="@+id/descriptionView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/editText_answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/edt_background"
+                android:gravity="top"
+                android:hint="@string/answer_hint"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine"
+                android:minLines="4"
+                android:padding="8dp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/saveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:focusable="true"
+                android:src="@drawable/ic_arrow_forward_white"
+                app:backgroundTint="@color/colorPrimary" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <include
+        layout="@layout/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

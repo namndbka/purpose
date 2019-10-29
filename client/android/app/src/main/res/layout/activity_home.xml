@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/home_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.4"
+            android:background="@drawable/profile_bg"
+            android:orientation="vertical" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="0.6" />
+    </LinearLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1.0">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/register_promotion_line1"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.2"
+                android:fontFamily="@font/roboto_medium"
+                android:gravity="center"
+                android:text="@string/register_desc"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_normal" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/register_card"
+                android:layout_width="match_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="0.45"
+                app:cardBackgroundColor="@android:color/white"
+                app:cardCornerRadius="@dimen/subscribe_card_radius"
+                app:cardElevation="@dimen/cardview_default_elevation"
+                app:cardUseCompatPadding="true"
+                app:layout_anchorGravity="bottom">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/ic_welcome" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dip"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@android:color/white"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center_horizontal"
+                        android:text="@string/acc_subscribe"
+                        android:textColor="@color/subscribe_title_color"
+                        android:textSize="@dimen/text_size_small" />
+
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/email_hint"
+                        android:imeOptions="actionDone"
+                        android:inputType="textEmailAddress|textNoSuggestions"
+                        android:maxLength="70"
+                        android:maxLines="1"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="1dp"
+                        android:paddingStart="6dp"
+                        android:paddingTop="20dp"
+                        android:textColor="@color/title_info_color"
+                        android:textColorHighlight="@color/subscribe_hint_color"
+                        android:textColorHint="@color/subtitle_info_color"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/subscribeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:focusable="true"
+        android:src="@drawable/ic_arrow_forward_white"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_anchor="@+id/register_card"
+        app:layout_anchorGravity="end|bottom|center" />
+
+    <include
+        layout="@layout/layout_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+</android.support.design.widget.CoordinatorLayout>

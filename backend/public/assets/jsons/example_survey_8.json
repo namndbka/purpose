@@ -1,0 +1,10 @@
+[
+  {
+    "index": 0,
+    "question_type": "Video",
+    "question_title": "<h1>Suy ngẫm về Mục đích sống</h1><p style=\"text-align: justify;\">Sau khi đã ghi lại những câu chuyện của cuộc đời mình, hãy dành thời gian suy ngẫm với những câu hỏi dưới đây:</p><p style=\"text-align: justify;\">- Bạn học được gì từ những câu chuyện bạn đã kể?</p><p style=\"text-align: justify;\">- Đâu là những chủ đề chung bạn nhận ra về bản thân mình dựa trên những câu chuyện đó?</p><p style=\"text-align: justify;\">- Bạn có cảm thấy khác sau khi suy ngẫm về những câu chuyện đó không? Vì sao?</p>",
+    "description": "",
+    "required": false,
+    "number_of_lines": 4
+  }
+]

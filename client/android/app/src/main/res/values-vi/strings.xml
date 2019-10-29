@@ -1,0 +1,20 @@
+<resources>
+    <string name="start">Bắt đầu</string>
+    <string name="xcontinue">Tiếp tục</string>
+    <string name="dimmis">Ẩn</string>
+    <string name="close">Đóng lại</string>
+    <string name="save">Lưu lại</string>
+    <string name="finish">Xong</string>
+    <string name="title">Tiêu đề</string>
+    <string name="record">Click để trả lời</string>
+    <string name="record_again">Trả lời lại</string>
+    <string name="email_invalidate">Email không hợp lệ!</string>
+    <string name="acc_subscribe">Nhập email Unilever của bạn để bắt đầu</string>
+    <string name="upload_to_server">Tải lên</string>
+    <string name="answer_hint">Nhập câu trả lời của bạn ở đây</string>
+    <string name="your_overall">Tổng quan khóa học</string>
+    <string name="answer">Trả lời</string>
+    <string name="enter_here">Chọn câu trả lời</string>
+    <string name="end_text_title">Câu trả lời của bạn đã được gửi</string>
+    <string name="answer_empty">Bạn chưa trả lời câu hỏi</string>
+</resources>

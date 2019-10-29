@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Purpose Discovery' do
+    pod 'R.swift', '~> 3.0'
+    pod 'GTProgressBar', '~> 0.2.3'
+    pod 'AlamofireObjectMapper', '~> 5.0'
+    pod 'IQKeyboardManagerSwift', '~> 5.0.0'
+end

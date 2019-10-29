@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Purpose Discovery</string>
+    <string name="xcontinue">Continue</string>
+    <string name="dimmis">Dimmis</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="finish">Finish</string>
+    <string name="title">Title</string>
+    <string name="email_hint" translatable="false">"@unilever.com"</string>
+    <string name="email_invalidate">Email is invalidate!</string>
+    <string name="record">Click here to record</string>
+    <string name="record_again">Record Again</string>
+    <string name="acc_subscribe">What is your Unilever email address?</string>
+    <string name="register_desc" translatable="false">Bài tập chuẩn bị cho workshop \n\"Discover your Purpose\"</string>
+    <string name="upload_to_server">Upload</string>
+    <string name="your_overall">Your overall completion</string>
+    <string name="answer_hint">Enter your answer here</string>
+    <string name="answer">Answer</string>
+    <string name="enter_here">Enter here</string>
+    <string name="end_text_title">Your answer has saved</string>
+    <string name="answer_empty">The answer is empty</string>
+</resources>

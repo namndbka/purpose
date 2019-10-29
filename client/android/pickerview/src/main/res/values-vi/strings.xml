@@ -1,0 +1,4 @@
+<resources>
+    <string name="pickerview_cancel">Hủy</string>
+    <string name="pickerview_submit">Xong</string>
+</resources>

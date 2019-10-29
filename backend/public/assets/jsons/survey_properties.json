@@ -1,0 +1,83 @@
+[
+  {
+    "id": 0,
+    "title": "Vài lời khuyên trước khi bắt đầu",
+    "keyword": "afewtips",
+    "intro_message": "<h1>Trước khi thực hành</h1><p>Bạn sẽ trải qua nhiều bài tập nhằm giúp bạn ngẫm nghĩ về câu chuyện cuộc đời mình, qua đó nhận ra bản chất sâu thẳm của bản thân.</p><p>Những bài tập này sẽ tốn nhiều thời gian, do đó, hãy tìm một <strong>không gian yên tĩnh</strong> nơi bạn có thể tập trung trong thời gian dài, tránh xa những yếu tố gây xao nhãng. Quan trọng hơn cả: <strong>đừng vội vàng trả lời nhanh chóng bất kì câu hỏi nào</strong>, vì như thế kết quả sẽ không thật sự có giá trị.</p><p>Các bài tập dưới đây sẽ khuyến khích bạn xem xét những khía cạnh khác nhau trong tính cách của bản thân. Những khía cạnh này chính là những mảng ghép làm nên Mục đích sống của bạn.</p><p>Bạn không cần hoàn thành tất cả các bài tập ngay lập tức. Bạn có thể tắt chương trình và quay lại sau, và các câu trả lời của bạn sẽ được lưu lại cho những lần truy cập sau.</p><p>Chúc bạn có một trải nghiệm tuyệt vời!</p>",
+    "end_message": "",
+    "skip_intro": true
+  },
+  {
+    "id": 1,
+    "title": "Trở về tuổi thơ",
+    "keyword": "yourchildhood",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn! Quả là một tuổi thơ đầy màu sắc :)",
+    "skip_intro": false
+  },
+  {
+    "id": 2,
+    "title": "Thử thách định hình con người bạn",
+    "keyword": "cruciblemoments",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 3,
+    "title": "Khám phá giá trị sống của bạn",
+    "keyword": "values",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 4,
+    "title": "Nghĩ về sở thích của bạn",
+    "keyword": "yourinterest",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 5,
+    "title": "Bạn của năm 80 tuổi",
+    "keyword": "80thbirthday",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "question_count": 1,
+    "skip_intro": false
+  },
+  {
+    "id": 6,
+    "title": "Câu chuyện thành công của bạn",
+    "keyword": "success",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 7,
+    "title": "Một số câu hỏi thêm giúp bạn khám phá Mục đích sống của mình",
+    "keyword": "",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 8,
+    "title": "Suy ngẫm về Mục đích sống của bạn",
+    "keyword": "REFLECTION",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 9,
+    "title": "Bước tiếp theo",
+    "keyword": "",
+    "intro_message": "<h1>Cảm ơn bạn đã chia sẻ!</h1><p>Mong rằng bạn đã có quãng thời gian sâu lắng với những suy ngẫm về cuộc đời mình. Đây sẽ là những thông tin quý giá để đi đến <strong>bước tiếp theo: \"Khám phá Mục đích sống\"</strong>",
+    "end_message": "",
+    "skip_intro": true
+  }
+]

@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  Zuni
+
+  Created by admin on 11/15/16.
+  Copyright © 2016 Suga. All rights reserved.
+*/
+"app_name" = "Find Purpose";
+"language_key" = "en";
+
+
+"acc_subscribe" = "\"The following steps will guide you through the process to discover your purpose.\"";
+"your_overall" = "Your overall completion";
+"answer_hint" = "Enter your answer here";
+"start_action" = "Start";
+"record_video" = "Click here to record";
+"record_again" = "Record again";
+"answer_empty" = "The answer is empty";
+"answer_sent" = "Your answer has sent";
+"enter_here" = "Enter here";
+"email_invalidate" = "Email is invalidate!";
+"dimmis" = "Dimmis";
+"morning_message" = "Bạn còn %d câu chưa trả lời cho Purpose Workshop. Hãy dành thời gian trong ngày mới để hoàn tất nhé";
+"evening_message" = "Hãy suy nghĩ %d câu trả lời cuối cùng để có một ngày trọn vẹn.";

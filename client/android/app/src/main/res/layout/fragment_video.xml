@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="72dp" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/textview_q_title"
+                style="?android:textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:text="@string/title"
+                android:textColor="@color/title_info_color"
+                android:textSize="@dimen/text_size_small" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/recordBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                android:paddingEnd="24dp"
+                android:paddingStart="24dp"
+                android:text="@string/record"
+                android:textColor="@android:color/white" />
+
+            <include
+                android:id="@+id/previewLayout"
+                layout="@layout/layout_preview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <include
+        layout="@layout/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

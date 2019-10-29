@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0070c0</color>
+    <color name="colorPrimaryDark">#0051a8</color>
+    <color name="colorAccent">#FBC02D</color>
+    <color name="accent">#e0ab28</color>
+    <color name="home_bg">#ffededed</color>
+    <color name="subscribe_title_color">#ff4a4a4a</color>
+    <color name="subscribe_hint_color">#ffd0d0d0</color>
+    <color name="subtitle_info_color">#ff666666</color>
+    <color name="title_info_color">#ff333333</color>
+    <color name="divider_color">#ffe5e5e5</color>
+    <color name="dash_line">#ffaeaeae</color>
+    <color name="flag_blue">#0070c0</color>
+</resources>

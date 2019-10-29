@@ -1,0 +1,19 @@
+[
+  {
+    "index": 0,
+    "question_type": "Checkboxes",
+    "question_title": "<h1>Bạn có biết những giá trị sống cốt lõi của bản thân không?</h1><p>Dưới đây là bài tập giúp bạn hiểu bản thân hơn nữa.</p><p>Hãy đọc danh sách các giá trị sống phổ biến dưới đây. Đâu là <strong>5 giá trị</strong> bạn cho là cốt lõi đối với mình? Ghi lại 5 giá trị này ở dưới.</p><p>Sắp xếp 5 giá trị này theo thứ tự quan trọng với bạn (giá trị số 1 là quan trọng nhất, và số 5 là ít quan trọng nhất). Bạn cũng cần ghi chú lại lý do bạn sắp xếp theo thứ tự này.</p>",
+    "description": "<p style=\"text-align:center;\">Dưới đây là danh sách những giá trị phổ biến để bạn tham khảo.</p><p style=\"text-align:center;\">Tuy nhiên, bạn có thể thêm những giá trị khác không có trong danh sách này.</p><p style=\"text-align:center;\"><figure class=\"image-wrapper\"><img alt=\"\" src=\"https://files-storage.easygenerator.com/image/9575373c-67d4-43b3-8cea-3d2fdb92732a.png\" style=\"height:477px; width:600px\"></figure>Hãy giải thích lý do bạn chọn những giá trị đó là giá trị cốt lõi của mình.</p><p style=\"text-align:center;\">Cuối cùng, mời bạn xem 1 video ngắn về ưu tiên những điều quan trọng trong cuộc sống. Video được dẵn dắt bởi Stephen Covey - tác giả của quyển sách nổi tiếng \"7 thói quen của người hiệu quả\".</p><p style=\"text-align:center;\"><iframe allowfullscreen=\"\" src=\"https://www.youtube.com/embed/W9qWSlABino\" width=\"640\" height=\"360\" frameborder=\"0\"></iframe></p>",
+    "required": false,
+    "max": 5,
+    "random_choices": false,
+    "choices": ["Thành công, thành tựu", "Trách nhiệm", "Tính chính xác", "Phiêu lưu", "Sắc đẹp", "Sự yên tĩnh, điềm tĩnh, bình an", "Thử thách", "Thay đổi", "Sự sạch sẽ và trật tự", "Cam kết", "Giao tiếp", "Năng lực", "Lòng trắc ẩn", "Quan tâm đến người khác", "Dũng khí", "Tiến bộ liên tục", "Phối hợp", "Lòng ái quốc", "Sự rõ ràng", "Tính chính xác", "Sự sáng tạo", "Sự liên kết, tính kết nối", "Sự quyết đoán", "Niềm vui, sự yêu đời", "Dân chủ", "Khám phá, phát minh", "Tính hiệu quả", "Tính công bằng", "Sự ưu tú", "Niềm tin", "Sự nhạy bén", "Tự do", "Tình bạn", "Cái nhìn toàn cầu", "Thiện chí", "Sự tốt lành", "Lòng biết ơn", "Sự chăm chỉ","Sự hòa hợp", "Sự thành thật", "Danh dự", "Sự độc lập", "Sự đổi mới", "Sự chính trực, liêm chính", "Công lý", "Kiến thức", "Quyền lãnh đạo", "Tình yêu, sự lãng mạn", "Lòng trung thành", "Ý nghĩa", "Công lao, công trạng", "Tiền bạc", "Sự cởi mở", "Hòa bình", "Sự hoàn hảo", "Sự phát triển của bản thân", "Thái độ tích cực", "Quyền hành, quyền lực", "Tính thực tiễn", "Sự riêng biệt", "Giải quyết vấn đề", "Tiến triển", "Sự thịnh vượng, giàu có", "Sự đúng giờ", "Chất lượng công việc", "Sự quy củ", "Sự tháo vát, tài xoay sở", "Tôn trọng mọi người", "Hướng đến kết quả", "Tuân thủ quy định, luật lệ", "Sự an toàn", "Làm vừa lòng người khác", "Sự ổn định", "Sự hi sinh", "Sự tự tin", "Phụng sự (cộng đồng, xã hội,...)", "Sự giản đơn", "Kỹ năng", "Tốc độ", "Sự chuẩn hóa", "Địa vị", "Sức mạnh", "Sự hệ thống hóa", "Tinh thần nhóm", "Sự chịu đựng", "Sự tin tưởng", "Sự thật", "Sự đoàn kết", "Sự đa dạng", "Sự thông thái", "Gia đình"]
+  },
+  {
+    "index": 1,
+    "question_type": "Video",
+    "question_title": "<h1>Why participant choose these values?</h1>",
+    "description": "",
+    "required": false
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 0,
+    "title": "Vài lời khuyên trước khi bắt đầu",
+    "keyword": "afewtips",
+ "intro_message": "<p></p><h1>Trước khi bắt đầu</h1><p>Tại workshop, bạn sẽ chia sẻ một số câu chuyện đời mình với một Facilitator, người sẽ có những nhận định sâu sắc về bạn từ những câu chuyện được nghe. Chính những nhận định này sẽ là \"nguyên liệu\" giúp bạn viết nên \"Tuyên ngôn về mục đích sống\" của mình.</p><p>Do tính chất đặc biệt này của workshop, bạn cần dành thời gian để suy ngẫm và nhớ lại những câu chuyện của mình trước khi tham gia workshop</p><p><strong>Xin lưu ý:</strong></p><ul><li><b>Mục 1 đến 4 là bắt buộc</b></li><li><b>Mục 5 (Một số câu hỏi thêm) là tùy chọn: bạn có thể chọn trả lời từ 1 đến 3 câu hỏi trong mục này</b></li></ul></p><p>Chúc bạn có một trải nghiệm tuyệt vời!</p><p></p>",
+    "end_message": "",
+    "skip_intro": true
+  },
+  {
+    "id": 1,
+    "title": "Trở về tuổi thơ",
+    "keyword": "yourchildhood",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn! Quả là một tuổi thơ đầy màu sắc :)",
+    "skip_intro": false
+  },
+  {
+    "id": 2,
+    "title": "Thử thách định hình con người bạn",
+    "keyword": "cruciblemoments",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 3,
+    "title": "Nghĩ về sở thích của bạn",
+    "keyword": "yourinterest",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 4,
+    "title": "Câu chuyện thành công của bạn",
+    "keyword": "success",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  },
+  {
+    "id": 5,
+    "title": "Một số câu hỏi thêm",
+    "keyword": "",
+    "intro_message": "",
+    "end_message": "Cảm ơn bạn đã chia sẻ!",
+    "skip_intro": false
+  }
+]

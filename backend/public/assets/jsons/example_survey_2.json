@@ -1,0 +1,9 @@
+[
+  {
+    "index": 0,
+    "question_type": "Video",
+    "question_title": "<h1>Thử thách định hình con người bạn</h1><p>Hãy nghĩ về cuộc đời và sự nghiệp của bạn tính tới thời điểm này. Đâu là lúc bạn trải qua một thử thách thật sự? Vì sao trải nghiệm đó lại khó khăn với bạn? Sự kiện đó có thử thách kỹ năng, kiến thức hay con người bạn không? Lúc đó bạn có đang gặp gỡ nhiều người mới, hoặc ở trong một môi trường khó khăn không? Bạn đã làm gì, và thử thách đó đã định hình hoặc thay đổi bạn ra sao?</p><p>Hãy ghi lại những suy ngẫm của bạn dưới đây.</p>",
+    "description": "Thử thách định hình bạn",
+    "required": false
+  }
+]
